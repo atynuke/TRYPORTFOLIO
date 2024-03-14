@@ -8,7 +8,7 @@ export default function Project() {
         <>
             <div className={style.container3}>
                 <div className={style.ProjectDiv}>
-                    <div id={style.jProjects}> PROJECTS</div>
+                    <div id={style.Projects}> PROJECTS</div>
                     <div id={style.ProjectSpan}>
                         <span> These are some of my best projects. I have built these with HTML,CSS, React
                             and vanilla CSS. Check them out.</span>
