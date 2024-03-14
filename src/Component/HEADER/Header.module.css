@@ -1,0 +1,41 @@
+#nav {
+    height: 100px;
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color: rgb(54, 96, 102);
+}
+
+#logo {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(178, 207, 245);
+
+
+}
+#links {
+    /* margin-right: 100px; */
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+#links span {
+    margin: 0px 12px;
+
+}
+#links a {
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(178, 207, 245);
+
+
+}
+#link a :hover {
+    color: blue;
+}

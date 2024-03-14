@@ -1,0 +1,33 @@
+.container2 {
+    background-color: rgb(69, 143, 139);
+    height: 100vh;
+    width: 100%;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutMeDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(178, 207, 245);
+}
+
+#AboutMeSpan {
+    font-size: 44px;
+    /* font-weight: 700; */
+   
+}
+
+#AboutMeWrap {
+    font-size: 20px;
+   
+}
+
+#AboutMeDiv p {
+    font-size: 25px;
+}
