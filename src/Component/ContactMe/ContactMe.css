@@ -1,0 +1,30 @@
+.container4 {
+    background-color: rgb(69, 143, 139);
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ContactMeDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 100px;
+
+}
+.ContactMeDiv h1 {
+    color: rgb(178, 207, 245);
+    font-size: 40px;
+    margin-right: 90px;
+
+}
+.ContactMeDiv p {
+    font-size: 20px;
+    color: rgb(178, 207, 245);
+    margin-left: 40px;
+
+}
+.ContactMeDiv span {
+    margin-left: 40px;
+}

@@ -4,10 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: rgb(100, 156, 147); 
+
 }
 
 .left {
-    /* background-color: rgb(176, 226, 218); */
     box-sizing: border-box;
     height: 100%;
     flex: 1;
@@ -25,7 +26,7 @@
 
 .leftWrap span {
     font-size: 32px;
-    color: rgb(178, 207, 245);
+    color: rgb(241, 241, 247);
     font-weight: 800;
     margin-bottom: 10px;
 }
@@ -33,13 +34,13 @@
 .leftWrap div {
     font-size: 38px;
     font-weight: 600;
-    color: rgb(178, 207, 245);
+    color: rgb(241, 241, 247);
 }
 
 .leftWrap p {
     width: 80%;
     font-size: 22px;
-    color: rgb(178, 207, 245);
+    color: rgb(241, 241, 247);
     line-height: 30px;
 }
 
@@ -47,11 +48,11 @@
     width: 140px;
     padding: 10px 10px;
     border: none;
-    background-color: rgb(78, 133, 134);
+    background-color: rgb(29, 67, 68);
     border-radius: 4px;
-    color: rgb(178, 207, 245);
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 700;
+    color: rgb(241, 241, 247);
     margin-top: 20px;
 }
 
@@ -73,6 +74,6 @@ img{
     width: 350px;
     height: 350px;
     box-sizing: border-box;
-    border-radius: 10px 10px;
+    border-radius:50%;
     position: relative;
 }
