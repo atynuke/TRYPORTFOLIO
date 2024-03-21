@@ -18,7 +18,7 @@
 }
 
 #AboutMeSpan {
-    font-size: 44px;
+    font-size: 40px;
     /* font-weight: 700; */
    
 }
@@ -30,4 +30,10 @@
 
 #AboutMeDiv p {
     font-size: 25px;
+}
+
+#AboutMeDiv button {
+    margin-left: 500px;
+    background-color: rgb(22, 68, 70);
+    border: none;
 }

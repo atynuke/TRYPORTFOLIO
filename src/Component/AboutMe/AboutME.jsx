@@ -7,8 +7,9 @@ export default function AboutMe() {
         <div className={style.container2}>
 
             <div id={style.AboutMeDiv}>
-                <div id={style.AboutMeSpan}><span>ABOUT ME</span></div>                <div id="AboutMeWrap">
-                    <p>
+                  <div id={style.AboutMeSpan}><span>ABOUT ME</span></div>                
+                    <div id="AboutMeWrap">
+                       <p>
                         Hi there, my name is Ilesanmi Atinuke, <br />
                         A seasoned web Developer with a passion for crafting. <br />
                         As a passionate and dedicated professional individual,
@@ -20,8 +21,10 @@ export default function AboutMe() {
                         that facilitate smooth navigation and engage users effectively. 
                         Constantly staying updated with the latest trends and best practices, 
                         I am committed to delivering high-quality websites that exceed client expectations.
-                    </p>
-                </div>
+                        </p>
+                    </div>
+                    <button>VIEW RESUME</button>
+
             </div>
         </div>
 )

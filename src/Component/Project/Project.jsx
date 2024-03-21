@@ -1,6 +1,12 @@
 import React from "react";
 import style from "./Project.module.css";
-import ProjectI from "../../assets/project1.jpg";
+import ProjectI from "../../assets/project1.png";
+import ProjectII from "../../assets/project2.png";
+import ProjectIII from "../../assets/project3.png";
+import ProjectIV from "../../assets/project4.png";
+import ProjectV from "../../assets/project5.png";
+import ProjectVI from "../../assets/project6.png";
+
 
 
 export default function Project() {
@@ -14,21 +20,46 @@ export default function Project() {
                             and vanilla CSS. Check them out.</span>
                     </div>
 
-                    <div id={style.Project1}>
-                        <img src={ProjectI} />
+
+                    <div className={style.ProjectContent}>
+
+                        <div id={style.ProjectImageDiv} >
+                            <img className={style.ProjectImage} src={ProjectI} />
+                            <h1>Made a Result summary template using HTML, CSS.</h1> <br />
+                            <button>VIEW CODE</button>  
+                        </div>
+                        <div id={style.ProjectImageDiv}>
+                            <img className={style.ProjectImage} src={ProjectII} />
+                            <h1>Made a interactive component template using HTML, CSS.</h1>
+                            <button>VIEW CODE</button>  
+                        </div>
+
+                        <div id={style.ProjectImageDiv}>
+                            <img className={style.ProjectImage} src={ProjectIII} />
+                            <h1>Made a Simple Omettele recipe template using HTML, CSS.</h1>
+                            <button>VIEW CODE</button>  
+                        </div>
+                          
+                        <div id={style.ProjectImageDiv}>
+                            <img className={style.ProjectImage} src={ProjectIV} />
+                            <h1>Made a simple and homemade Canape using HTML, CSS.</h1>
+                            <button>VIEW CODE</button>  
+                        </div>
+                        <div id={style.ProjectImageDiv}>
+                            <img className={style.ProjectImage} src={ProjectV} />
+                            <h1>Made a interactive template using HTML, CSS.</h1>
+                            <button>VIEW CODE</button>  
+                        </div>
+                        <div id={style.ProjectImageDiv}>
+                            <img className={style.ProjectImage} src={ProjectVI} />
+                            <h1>Made a Simple Calculator template using HTML, CSS.</h1>
+                            <button>VIEW CODE</button>  
+                        </div>
+
                     </div>
 
-                    {/* <div id="Project2">
-                    <img src={project2} alt="Project-image" height={400} width={400} />
-                    </div>n
 
-                    <div id="Project3">
-                    <img src={project3} alt="Project-image" height={400} width={400} />
-                    </div>
 
-                    <div id="Project4">
-                    <img src={project4} alt="Project-image" height={400} width={400} />
-                    </div> */}
                 </div>
 
             </div>

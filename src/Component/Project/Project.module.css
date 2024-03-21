@@ -1,26 +1,84 @@
 .container3 {
     background-color: rgb(22, 68, 70);
-    height: 90vh;
+    box-sizing: border-box;
+    line-height: 40px;
+    min-height: 90vh;
     width: 100%;
 }
 .ProjectDiv {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 
 }
 #Projects {
-    font-size: 20px;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: 300;
     color: rgb(178, 207, 245);
 }
 
 #ProjectSpan {
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: 100;
     color: rgb(178, 207, 245);
+}
+
+#ProjectImageDiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ProjectImage{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    overflow: hidden;
+    /* border-radius: 15px; */
+    margin-left: 20%;
+    display:flex;
+    flex-direction: column;
+}
+
+#projectCaption {
+    position: relative;
+    top: 450px;
+    right: 450px;
+}
+
+.ProjectContent {
+    display: flex;
+    flex-wrap: wrap;
+
 
 }
-/* #Project1{
-position: relative;
-right: 800px;
-top: 500px;
-} */
+
+#ProjectImageDiv {
+    height: 600px;
+    width: 600px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+h1{
+    font-size: 18px;
+    color: rgb(178, 207, 245);
+    display: flex;
+    align-content: baseline;
+    margin-left: 120px;
+}
+
+button {
+    width: 200px;
+    padding: 10px 10px;
+    background-color: rgb(78, 133, 134);
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(178, 207, 245);
+    border: none;
+    
+}
