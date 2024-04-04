@@ -1,6 +1,33 @@
 .GetForm {
-    background-color: antiquewhite;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    top: 140px;
+    left: 500px;
+
 }
+.Me {
+    font-size: 50px;
+    color: white;
+    margin-left: 70px;
+
+}
+#Me {
+    font-size: 20px;
+    color: white;
+}
+#Get {
+    font-size: 20px;
+    color: rgb(20, 94, 107);
+    margin-left: 100px;
+
+}
+textarea {
+    width: 370px;
+}
+
+input {
+    height: 50px;
+    width: 370px;
+    border: 1px solid rgb(153, 147, 147);
+    border-radius: 5px;
+}
+
