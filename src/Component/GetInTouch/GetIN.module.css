@@ -1,6 +1,5 @@
 .GetForm {
     position: relative;
-    top: 140px;
     left: 500px;
 
 }
@@ -14,12 +13,7 @@
     font-size: 20px;
     color: white;
 }
-#Get {
-    font-size: 20px;
-    color: rgb(20, 94, 107);
-    margin-left: 100px;
 
-}
 textarea {
     width: 370px;
 }

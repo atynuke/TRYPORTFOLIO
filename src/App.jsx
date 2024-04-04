@@ -3,6 +3,8 @@ import Hero from "./Component/HERO/Hero"
 import AboutMe from "./Component/AboutMe/AboutME"
 import Project from "./Component/Project/Project"
 import GetIN from "./Component/GetInTouch/GetIN"
+import Socials from "./Component/socials/Social.jsx"
+
 import './App.css'
 
 
@@ -28,6 +30,10 @@ function App() {
 
       <div>
         <GetIN/>
+      </div>
+
+      <div>
+        <Socials/>
       </div>
     </>
   )
